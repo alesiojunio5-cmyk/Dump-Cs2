@@ -30,7 +30,7 @@
             "type_name": "string_t"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CAI_ChangeHintGroup": {
         "fields": {
@@ -212,7 +212,7 @@
             "type_name": "float"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CAttributeContainer": {
         "fields": {
@@ -255,7 +255,7 @@
             "type_name": "CEconItemAttribute"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CAttributeManager": {
         "fields": {
@@ -283,7 +283,7 @@
             "type_name": "attributeprovidertypes_t"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CAttributeManager__cached_attribute_float_t": {
         "fields": {
@@ -1497,7 +1497,7 @@
             "type_name": "BloodType"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CBaseEntityAPI": {
         "fields": {},
@@ -2717,7 +2717,7 @@
           "m_viewForward": 220
         },
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "CBreakable": {
         "fields": {
@@ -2875,7 +2875,7 @@
           "m_vecWheelFrictionScales": 72
         },
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "CBuyZone": {
         "fields": {
@@ -4491,10 +4491,10 @@
           "m_nPersonaDataPublicLevel": 92,
           "m_nPersonaDataXpTrailLevel": 108,
           "m_rank": 68,
+          "m_unCurrentLoadoutHash": 3920,
           "m_unEquippedPlayerSprayIDs": 3912,
           "m_unMusicID": 64,
-          "m_vecNetworkableLoadout": 4056,
-          "m_vecServerAuthoritativeWeaponSlots": 3920
+          "m_vecServerAuthoritativeWeaponSlots": 3928
         },
         "metadata": [
           {
@@ -4536,14 +4536,18 @@
             "name": "m_vecServerAuthoritativeWeaponSlots",
             "type": "NetworkVarNames",
             "type_name": "ServerAuthoritativeWeaponSlot_t"
-          },
-          {
-            "name": "m_vecNetworkableLoadout",
-            "type": "NetworkVarNames",
-            "type_name": "CSNetworkableLoadout_t"
           }
         ],
         "parent": "CPlayerControllerComponent"
+      },
+      "CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t": {
+        "fields": {
+          "pItem": 0,
+          "slot": 10,
+          "team": 8
+        },
+        "metadata": [],
+        "parent": null
       },
       "CCSPlayerPawn": {
         "fields": {
@@ -5330,47 +5334,47 @@
       },
       "CCSPlayer_MovementServices": {
         "fields": {
-          "m_StuckLast": 1244,
-          "m_bDesiresDuck": 673,
-          "m_bDuckOverride": 672,
-          "m_bHasWalkMovedSinceLastJump": 713,
-          "m_bInStuckTest": 714,
-          "m_bMadeFootstepNoise": 1300,
-          "m_bOldJumpPressed": 1308,
-          "m_bSpeedCropped": 1248,
-          "m_bWasSurfing": 1376,
-          "m_duckUntilOnGround": 712,
-          "m_fStashGrenadeParameterWhen": 1316,
-          "m_flAccumulatedJumpError": 1368,
-          "m_flDuckAmount": 664,
-          "m_flDuckOffset": 676,
-          "m_flDuckSpeed": 668,
-          "m_flHeightAtJumpStart": 1352,
-          "m_flJumpPressedTime": 1312,
-          "m_flLastDuckTime": 692,
-          "m_flMaxJumpHeightLastJump": 1360,
-          "m_flMaxJumpHeightThisJump": 1356,
-          "m_flOffsetTickCompleteTime": 1328,
-          "m_flOffsetTickStashedSpeed": 1332,
-          "m_flStamina": 1336,
-          "m_flStaminaAtJumpStart": 1364,
-          "m_flTicksSinceLastSurfingDetected": 1372,
-          "m_flWaterEntryTime": 1256,
-          "m_iFootsteps": 1304,
-          "m_nButtonDownMaskPrev": 1320,
-          "m_nDuckJumpTimeMsecs": 684,
-          "m_nDuckTimeMsecs": 680,
-          "m_nGameCodeHasMovedPlayerAfterCommand": 1296,
-          "m_nJumpTimeMsecs": 688,
-          "m_nLadderSurfacePropIndex": 660,
-          "m_nOldWaterLevel": 1252,
-          "m_nTraceCount": 1240,
-          "m_vecForward": 1260,
-          "m_vecInputRotated": 1340,
-          "m_vecLadderNormal": 648,
-          "m_vecLastPositionAtFullCrouchSpeed": 704,
-          "m_vecLeft": 1272,
-          "m_vecUp": 1284
+          "m_StuckLast": 1236,
+          "m_bDesiresDuck": 665,
+          "m_bDuckOverride": 664,
+          "m_bHasWalkMovedSinceLastJump": 705,
+          "m_bInStuckTest": 706,
+          "m_bMadeFootstepNoise": 1292,
+          "m_bOldJumpPressed": 1300,
+          "m_bSpeedCropped": 1240,
+          "m_bWasSurfing": 1356,
+          "m_duckUntilOnGround": 704,
+          "m_fStashGrenadeParameterWhen": 1308,
+          "m_flAccumulatedJumpError": 1348,
+          "m_flDuckAmount": 656,
+          "m_flDuckOffset": 668,
+          "m_flDuckSpeed": 660,
+          "m_flHeightAtJumpStart": 1332,
+          "m_flJumpPressedTime": 1304,
+          "m_flLastDuckTime": 684,
+          "m_flMaxJumpHeightLastJump": 1340,
+          "m_flMaxJumpHeightThisJump": 1336,
+          "m_flOffsetTickCompleteTime": 1320,
+          "m_flOffsetTickStashedSpeed": 1324,
+          "m_flStamina": 1328,
+          "m_flStaminaAtJumpStart": 1344,
+          "m_flTicksSinceLastSurfingDetected": 1352,
+          "m_flWaterEntryTime": 1248,
+          "m_iFootsteps": 1296,
+          "m_nButtonDownMaskPrev": 1312,
+          "m_nDuckJumpTimeMsecs": 676,
+          "m_nDuckTimeMsecs": 672,
+          "m_nGameCodeHasMovedPlayerAfterCommand": 1288,
+          "m_nJumpTimeMsecs": 680,
+          "m_nLadderSurfacePropIndex": 652,
+          "m_nOldWaterLevel": 1244,
+          "m_nTraceCount": 1232,
+          "m_vecForward": 1252,
+          "m_vecInputRotated": 1500,
+          "m_vecLadderNormal": 640,
+          "m_vecLastPositionAtFullCrouchSpeed": 696,
+          "m_vecLeft": 1264,
+          "m_vecUp": 1276
         },
         "metadata": [
           {
@@ -5462,11 +5466,6 @@
             "name": "m_flStamina",
             "type": "NetworkVarNames",
             "type_name": "float"
-          },
-          {
-            "name": "m_vecInputRotated",
-            "type": "NetworkVarNames",
-            "type_name": "Vector"
           },
           {
             "name": "m_bWasSurfing",
@@ -6208,7 +6207,7 @@
             "type_name": "float"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CColorCorrection": {
         "fields": {
@@ -6510,7 +6509,7 @@
             "type_name": "int"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CDynamicLight": {
         "fields": {
@@ -6791,7 +6790,7 @@
             "type_name": "char"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CEconWearable": {
         "fields": {
@@ -6947,7 +6946,7 @@
       "CEntityComponent": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "CEntityDissolve": {
         "fields": {
@@ -7064,7 +7063,7 @@
             "type_name": "int32"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CEntityInstance": {
         "fields": {
@@ -8616,7 +8615,7 @@
             "type_name": "Vector"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CEnvWindVolume": {
         "fields": {
@@ -9663,7 +9662,7 @@
             "type_name": "CUtlStringToken"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CGameSceneNodeHandle": {
         "fields": {
@@ -9682,7 +9681,7 @@
             "type_name": "CUtlStringToken"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CGameText": {
         "fields": {
@@ -9807,7 +9806,7 @@
             "type_name": "bool"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CGradientFog": {
         "fields": {
@@ -11672,7 +11671,7 @@
             "type_name": "int8"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CMolotovGrenade": {
         "fields": {},
@@ -11819,7 +11818,7 @@
             "type_name": "float32"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CNullEntity": {
         "fields": {},
@@ -12911,9 +12910,8 @@
           "m_nQueuedButtonDownMask": 104,
           "m_nToggleButtonDownMask": 392,
           "m_pButtonPressedCmdNumber": 128,
-          "m_vecLastFinishTickViewAngles": 544,
           "m_vecLastMovementImpulses": 440,
-          "m_vecOldViewAngles": 556
+          "m_vecOldViewAngles": 544
         },
         "metadata": [
           {
@@ -12936,19 +12934,19 @@
       },
       "CPlayer_MovementServices_Humanoid": {
         "fields": {
-          "m_bDucked": 596,
-          "m_bDucking": 597,
-          "m_bInCrouch": 584,
-          "m_bInDuckJump": 598,
-          "m_flCrouchTransitionStartTime": 592,
-          "m_flFallVelocity": 580,
-          "m_flStepSoundTime": 576,
-          "m_flSurfaceFriction": 612,
-          "m_groundNormal": 600,
-          "m_nCrouchState": 588,
-          "m_nStepside": 632,
-          "m_surfaceProps": 616,
-          "m_vecSmoothedVelocity": 636
+          "m_bDucked": 588,
+          "m_bDucking": 589,
+          "m_bInCrouch": 576,
+          "m_bInDuckJump": 590,
+          "m_flCrouchTransitionStartTime": 584,
+          "m_flFallVelocity": 572,
+          "m_flStepSoundTime": 568,
+          "m_flSurfaceFriction": 604,
+          "m_groundNormal": 592,
+          "m_nCrouchState": 580,
+          "m_nStepside": 624,
+          "m_surfaceProps": 608,
+          "m_vecSmoothedVelocity": 628
         },
         "metadata": [
           {
@@ -15879,15 +15877,6 @@
         ],
         "parent": null
       },
-      "CSNetworkableLoadout_t": {
-        "fields": {
-          "m_ItemAttributeContainer": 48,
-          "m_unSlot": 810,
-          "m_unTeam": 808
-        },
-        "metadata": [],
-        "parent": null
-      },
       "CSPerRoundStats_t": {
         "fields": {
           "m_iAssists": 56,
@@ -17059,7 +17048,7 @@
             "type_name": "bool"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "CTimerEntity": {
         "fields": {
@@ -17877,7 +17866,7 @@
             "type_name": "WorldGroupId_t"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "EngineCountdownTimer": {
         "fields": {
@@ -17902,7 +17891,7 @@
             "type_name": "float32"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "EntityRenderAttribute_t": {
         "fields": {
@@ -17921,7 +17910,7 @@
             "type_name": "Vector4D"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "EntitySpottedState_t": {
         "fields": {
@@ -17975,7 +17964,7 @@
             "type_name": "WorldGroupId_t"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "OutflowWithRequirements_t": {
         "fields": {
@@ -18010,7 +17999,7 @@
             "type_name": "EHANDLE"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "PredictedDamageTag_t": {
         "fields": {
@@ -18129,7 +18118,7 @@
             "type_name": "CEntityHandle"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "SequenceHistory_t": {
         "fields": {
@@ -18141,7 +18130,7 @@
           "m_nSeqLoopMode": 12
         },
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "SignatureOutflow_Continue": {
         "fields": {},
@@ -18215,7 +18204,7 @@
             "type_name": "uint8"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "ViewAngleServerChange_t": {
         "fields": {
@@ -18259,7 +18248,7 @@
             "type_name": "uint16"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "WeaponPurchaseTracker_t": {
         "fields": {
@@ -18272,7 +18261,7 @@
             "type_name": "WeaponPurchaseCount_t"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "audioparams_t": {
         "fields": {
@@ -18309,7 +18298,7 @@
             "type_name": "uint32"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "fogparams_t": {
         "fields": {
@@ -18456,7 +18445,7 @@
             "type_name": "bool"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "fogplayerparams_t": {
         "fields": {
@@ -18482,7 +18471,7 @@
             "type_name": "CHandle<CFogController>"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "shard_model_desc_t": {
         "fields": {
@@ -18567,7 +18556,7 @@
             "type_name": "CUtlStringToken"
           }
         ],
-        "parent": null
+        "parent": ""
       },
       "sky3dparams_t": {
         "fields": {
@@ -18610,7 +18599,7 @@
             "type_name": "WorldGroupId_t"
           }
         ],
-        "parent": null
+        "parent": ""
       }
     },
     "enums": {
