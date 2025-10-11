@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-08 16:16:12.018727400 UTC
+// 2025-10-11 19:10:32.080067400 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -20,6 +20,10 @@ pub mod cs2_dumper {
             pub const Source2ClientConfig001: usize = 0x1DC77E0;
             pub const Source2ClientPrediction001: usize = 0x1BF1ED0;
             pub const Source2ClientUI001: usize = 0x1C04870;
+        }
+        // Module: crashhandler64.dll
+        pub mod crashhandler64_dll {
+            pub const : usize = 0xFFFF80035AC80007;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -217,10 +221,6 @@ pub mod cs2_dumper {
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x315B0;
-        }
-        // Module: vconcomm.dll
-        pub mod vconcomm_dll {
-            pub const VConComm001: usize = 0x375C0;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {
