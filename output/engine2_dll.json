@@ -21,7 +21,7 @@
           "m_Value": 24
         },
         "metadata": [],
-        "parent": null
+        "parent": ""
       },
       "CNetworkVarChainer": {
         "fields": {
@@ -348,54 +348,24 @@
       }
     },
     "enums": {
-      "P_____": {
-        "alignment": 183,
+      "EntityDormancyType_t": {
+        "alignment": 4,
         "members": {
-          "": 0,
-          "\b{n��": 1,
-          "\u0010~\n�.\u0003": 51539607563,
-          "\u0011w\n�.\u0003": 442381631592,
-          "\u001c\n�.\u0003": 3498351987296,
-          "!�\n�.\u0003": 493921239156,
-          ".w\n�.\u0003": 450971566186,
-          "0\f\t�.\u0003": 0,
-          "4~\n�.\u0003": 60129542157,
-          "@SH�� H�\u0015ó\u0017": 0,
-          "Fw\n�.\u0003": 459561500780,
-          "H\u0019": 0,
-          "H�\u0005�|<": 140711264733448,
-          "MZ�": 140713444643056,
-          "OS mode.\r\r\n$": 0,
-          "Oct 15 2025": 3498351987504,
-          "P�+��": 0,
-          "VEngineCvar007": 0,
-          "`of��": 0,
-          "c~\n�.\u0003": 68719476751,
-          "c�\n�.\u0003": 502511173750,
-          "engine2": 140711264558464,
-          "hI���": 140711264733448,
-          "i}\n�.\u0003": 17179869187,
-          "jw\n�.\u0003": 468151435374,
-          "materials/console_background.vmat": 0,
-          "materials/dev/generalfilter_additive.vmat": 0,
-          "|�\n�.\u0003": 511101108344,
-          "�'��": 140711265301424,
-          "�v\n�.\u0003": 433791696998,
-          "�w\n�.\u0003": 485331304562,
-          "�}\n�.\u0003": 42949672969,
-          "�~\n�.\u0003": 21,
-          "��\n�.\u0003": 519691042938,
-          "��+��": 0,
-          "��M@*\\��": 4640225047917721766,
-          "��X��": 0,
-          "�����": 140711268427688
+          "ENTITY_DORMANT": 1,
+          "ENTITY_NOT_DORMANT": 0,
+          "ENTITY_SUSPENDED": 2
         },
-        "type": "unknown"
+        "type": "uint32"
       },
-      "__D": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
+      "EntityIOTargetType_t": {
+        "alignment": 4,
+        "members": {
+          "ENTITY_IO_TARGET_EHANDLE": 6,
+          "ENTITY_IO_TARGET_ENTITYNAME": 2,
+          "ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME": 7,
+          "ENTITY_IO_TARGET_INVALID": -1
+        },
+        "type": "uint32"
       }
     }
   }
