@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-15 15:23:28.080299300 UTC
+// 2025-10-16 04:25:47.140140900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod cs2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 156
-        // Enum count: 5
+        // Enum count: 91
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -31,6 +31,18 @@ pub mod cs2_dumper {
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
                 ORIENTATION_FACE_ENTITY = 0x8
+            }
+            // Alignment: 4
+            // Member count: 29
+            #[repr(u32)]
+            pub enum C_EconItemView {
+                 = 0x0
+            }
+            // Alignment: 1
+            // Member count: 36
+            #[repr(u8)]
+            pub enum CGameSceneNode {
+                 = 0x0
             }
             // Parent: None
             // Field count: 1
@@ -474,15 +486,16 @@ pub mod cs2_dumper {
                 pub const m_fIdealSampleRate: usize = 0x10; // float32
             }
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             pub mod CTakeDamageResult {
                 pub const m_pOriginatingInfo: usize = 0x0; // CTakeDamageInfo*
                 pub const m_nHealthLost: usize = 0x8; // int32
-                pub const m_nDamageDealt: usize = 0xC; // int32
-                pub const m_flPreModifiedDamage: usize = 0x10; // float32
-                pub const m_nTotalledHealthLost: usize = 0x14; // int32
-                pub const m_nTotalledDamageDealt: usize = 0x18; // int32
-                pub const m_bWasDamageSuppressed: usize = 0x1C; // bool
+                pub const m_nHealthBefore: usize = 0xC; // int32
+                pub const m_nDamageDealt: usize = 0x10; // int32
+                pub const m_flPreModifiedDamage: usize = 0x14; // float32
+                pub const m_nTotalledHealthLost: usize = 0x18; // int32
+                pub const m_nTotalledDamageDealt: usize = 0x1C; // int32
+                pub const m_bWasDamageSuppressed: usize = 0x20; // bool
             }
             // Parent: None
             // Field count: 19
@@ -968,7 +981,7 @@ pub mod cs2_dumper {
                 pub const nSummarisedCount: usize = 0x0; // int32
                 pub const info: usize = 0x8; // CTakeDamageInfo
                 pub const result: usize = 0x130; // CTakeDamageResult
-                pub const hTarget: usize = 0x150; // CHandle<CBaseEntity>
+                pub const hTarget: usize = 0x158; // CHandle<CBaseEntity>
             }
             // Parent: None
             // Field count: 2

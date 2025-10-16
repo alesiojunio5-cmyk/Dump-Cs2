@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-15 15:23:28.080299300 UTC
+// 2025-10-16 04:25:47.140140900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
     // Class count: 156
-    // Enum count: 5
+    // Enum count: 91
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -26,6 +26,79 @@ namespace CS2Dumper.Schemas {
             ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
             ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
             ORIENTATION_FACE_ENTITY = 0x8
+        }
+        // Alignment: 4
+        // Member count: 29
+        public enum C_EconItemView : uint {
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0
+        }
+        // Alignment: 1
+        // Member count: 36
+        public enum CGameSceneNode : byte {
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0,
+             = 0x0
         }
         // Parent: None
         // Field count: 1
@@ -469,15 +542,16 @@ namespace CS2Dumper.Schemas {
             public const nint m_fIdealSampleRate = 0x10; // float32
         }
         // Parent: None
-        // Field count: 7
+        // Field count: 8
         public static class CTakeDamageResult {
             public const nint m_pOriginatingInfo = 0x0; // CTakeDamageInfo*
             public const nint m_nHealthLost = 0x8; // int32
-            public const nint m_nDamageDealt = 0xC; // int32
-            public const nint m_flPreModifiedDamage = 0x10; // float32
-            public const nint m_nTotalledHealthLost = 0x14; // int32
-            public const nint m_nTotalledDamageDealt = 0x18; // int32
-            public const nint m_bWasDamageSuppressed = 0x1C; // bool
+            public const nint m_nHealthBefore = 0xC; // int32
+            public const nint m_nDamageDealt = 0x10; // int32
+            public const nint m_flPreModifiedDamage = 0x14; // float32
+            public const nint m_nTotalledHealthLost = 0x18; // int32
+            public const nint m_nTotalledDamageDealt = 0x1C; // int32
+            public const nint m_bWasDamageSuppressed = 0x20; // bool
         }
         // Parent: None
         // Field count: 19
@@ -963,7 +1037,7 @@ namespace CS2Dumper.Schemas {
             public const nint nSummarisedCount = 0x0; // int32
             public const nint info = 0x8; // CTakeDamageInfo
             public const nint result = 0x130; // CTakeDamageResult
-            public const nint hTarget = 0x150; // CHandle<CBaseEntity>
+            public const nint hTarget = 0x158; // CHandle<CBaseEntity>
         }
         // Parent: None
         // Field count: 2

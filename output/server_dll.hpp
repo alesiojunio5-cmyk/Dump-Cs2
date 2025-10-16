@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-15 15:23:28.080299300 UTC
+// 2025-10-16 04:25:47.140140900 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 156
-        // Enum count: 5
+        // Enum count: 91
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -31,6 +31,79 @@ namespace cs2_dumper {
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
                 ORIENTATION_FACE_ENTITY = 0x8
+            };
+            // Alignment: 4
+            // Member count: 29
+            enum class C_EconItemView : uint32_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 1
+            // Member count: 36
+            enum class CGameSceneNode : uint8_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
             };
             // Parent: None
             // Field count: 1
@@ -474,15 +547,16 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_fIdealSampleRate = 0x10; // float32
             }
             // Parent: None
-            // Field count: 7
+            // Field count: 8
             namespace CTakeDamageResult {
                 constexpr std::ptrdiff_t m_pOriginatingInfo = 0x0; // CTakeDamageInfo*
                 constexpr std::ptrdiff_t m_nHealthLost = 0x8; // int32
-                constexpr std::ptrdiff_t m_nDamageDealt = 0xC; // int32
-                constexpr std::ptrdiff_t m_flPreModifiedDamage = 0x10; // float32
-                constexpr std::ptrdiff_t m_nTotalledHealthLost = 0x14; // int32
-                constexpr std::ptrdiff_t m_nTotalledDamageDealt = 0x18; // int32
-                constexpr std::ptrdiff_t m_bWasDamageSuppressed = 0x1C; // bool
+                constexpr std::ptrdiff_t m_nHealthBefore = 0xC; // int32
+                constexpr std::ptrdiff_t m_nDamageDealt = 0x10; // int32
+                constexpr std::ptrdiff_t m_flPreModifiedDamage = 0x14; // float32
+                constexpr std::ptrdiff_t m_nTotalledHealthLost = 0x18; // int32
+                constexpr std::ptrdiff_t m_nTotalledDamageDealt = 0x1C; // int32
+                constexpr std::ptrdiff_t m_bWasDamageSuppressed = 0x20; // bool
             }
             // Parent: None
             // Field count: 19
@@ -968,7 +1042,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t nSummarisedCount = 0x0; // int32
                 constexpr std::ptrdiff_t info = 0x8; // CTakeDamageInfo
                 constexpr std::ptrdiff_t result = 0x130; // CTakeDamageResult
-                constexpr std::ptrdiff_t hTarget = 0x150; // CHandle<CBaseEntity>
+                constexpr std::ptrdiff_t hTarget = 0x158; // CHandle<CBaseEntity>
             }
             // Parent: None
             // Field count: 2

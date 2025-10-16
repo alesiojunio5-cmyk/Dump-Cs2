@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-15 15:23:28.080299300 UTC
+// 2025-10-16 04:25:47.140140900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
     // Class count: 48
-    // Enum count: 1
+    // Enum count: 0
     public static class Engine2Dll {
         // Parent: None
         // Field count: 0
