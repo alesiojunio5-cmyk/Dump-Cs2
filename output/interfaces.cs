@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-16 04:25:47.140140900 UTC
+// 2025-10-16 18:04:48.077067600 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -58,6 +58,17 @@ namespace CS2Dumper.Interfaces {
         public const nint VAsyncFileSystem2_001 = 0x215AE0;
         public const nint VFileSystem017 = 0x2106C0;
     }
+    // Module: host.dll
+    public static class HostDll {
+        public const nint DebugDrawQueueManager001 = 0x138EF0;
+        public const nint GameModelInfo001 = 0x138F30;
+        public const nint GameSystem2HostHook = 0x138F70;
+        public const nint HostUtils001 = 0x1466E0;
+        public const nint PredictionDiffManager001 = 0x139080;
+        public const nint SaveRestoreDataVersion001 = 0x1391B0;
+        public const nint SinglePlayerSharedMemory001 = 0x1391E0;
+        public const nint Source2Host001 = 0x139250;
+    }
     // Module: imemanager.dll
     public static class ImemanagerDll {
         public const nint IMEManager001 = 0x36AA0;
@@ -71,6 +82,11 @@ namespace CS2Dumper.Interfaces {
     public static class LocalizeDll {
         public const nint Localize_001 = 0x47BE0;
     }
+    // Module: matchmaking.dll
+    public static class MatchmakingDll {
+        public const nint GameTypes001 = 0x1B5EE0;
+        public const nint MATCHFRAMEWORK_001 = 0x1BE0F0;
+    }
     // Module: materialsystem2.dll
     public static class Materialsystem2Dll {
         public const nint FontManager_001 = 0x163500;
@@ -82,6 +98,10 @@ namespace CS2Dumper.Interfaces {
     // Module: meshsystem.dll
     public static class MeshsystemDll {
         public const nint MeshSystem001 = 0x1400E0;
+    }
+    // Module: navsystem.dll
+    public static class NavsystemDll {
+        public const nint NavSystem001 = 0x120840;
     }
     // Module: networksystem.dll
     public static class NetworksystemDll {
@@ -119,6 +139,11 @@ namespace CS2Dumper.Interfaces {
     // Module: resourcesystem.dll
     public static class ResourcesystemDll {
         public const nint ResourceSystem013 = 0x7FDD0;
+    }
+    // Module: scenefilecache.dll
+    public static class ScenefilecacheDll {
+        public const nint ResponseRulesCache001 = 0x95740;
+        public const nint SceneFileCache002 = 0x95890;
     }
     // Module: scenesystem.dll
     public static class ScenesystemDll {

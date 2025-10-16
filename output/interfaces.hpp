@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-16 04:25:47.140140900 UTC
+// 2025-10-16 18:04:48.077067600 UTC
 
 #pragma once
 
@@ -63,6 +63,17 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t VAsyncFileSystem2_001 = 0x215AE0;
             constexpr std::ptrdiff_t VFileSystem017 = 0x2106C0;
         }
+        // Module: host.dll
+        namespace host_dll {
+            constexpr std::ptrdiff_t DebugDrawQueueManager001 = 0x138EF0;
+            constexpr std::ptrdiff_t GameModelInfo001 = 0x138F30;
+            constexpr std::ptrdiff_t GameSystem2HostHook = 0x138F70;
+            constexpr std::ptrdiff_t HostUtils001 = 0x1466E0;
+            constexpr std::ptrdiff_t PredictionDiffManager001 = 0x139080;
+            constexpr std::ptrdiff_t SaveRestoreDataVersion001 = 0x1391B0;
+            constexpr std::ptrdiff_t SinglePlayerSharedMemory001 = 0x1391E0;
+            constexpr std::ptrdiff_t Source2Host001 = 0x139250;
+        }
         // Module: imemanager.dll
         namespace imemanager_dll {
             constexpr std::ptrdiff_t IMEManager001 = 0x36AA0;
@@ -76,6 +87,11 @@ namespace cs2_dumper {
         namespace localize_dll {
             constexpr std::ptrdiff_t Localize_001 = 0x47BE0;
         }
+        // Module: matchmaking.dll
+        namespace matchmaking_dll {
+            constexpr std::ptrdiff_t GameTypes001 = 0x1B5EE0;
+            constexpr std::ptrdiff_t MATCHFRAMEWORK_001 = 0x1BE0F0;
+        }
         // Module: materialsystem2.dll
         namespace materialsystem2_dll {
             constexpr std::ptrdiff_t FontManager_001 = 0x163500;
@@ -87,6 +103,10 @@ namespace cs2_dumper {
         // Module: meshsystem.dll
         namespace meshsystem_dll {
             constexpr std::ptrdiff_t MeshSystem001 = 0x1400E0;
+        }
+        // Module: navsystem.dll
+        namespace navsystem_dll {
+            constexpr std::ptrdiff_t NavSystem001 = 0x120840;
         }
         // Module: networksystem.dll
         namespace networksystem_dll {
@@ -124,6 +144,11 @@ namespace cs2_dumper {
         // Module: resourcesystem.dll
         namespace resourcesystem_dll {
             constexpr std::ptrdiff_t ResourceSystem013 = 0x7FDD0;
+        }
+        // Module: scenefilecache.dll
+        namespace scenefilecache_dll {
+            constexpr std::ptrdiff_t ResponseRulesCache001 = 0x95740;
+            constexpr std::ptrdiff_t SceneFileCache002 = 0x95890;
         }
         // Module: scenesystem.dll
         namespace scenesystem_dll {
